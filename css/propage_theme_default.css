@@ -1,0 +1,453 @@
+
+
+* {
+  margin: 0 auto;
+  padding: 0
+
+}
+
+#first_element { 
+  position: relative; 
+
+} 
+
+#second_element { 
+
+  position:absolute;
+ 
+  margin-top: 100px;
+  float:right;
+
+    bottom:0;
+    right:0;
+    clear:right
+
+}
+#propage_wrap {
+  margin: 0 auto;
+
+
+}
+#propage_rightbody{
+  max-width: 300px;
+  float: right;
+  position: relative;
+  border:4px;
+  border-style:double;
+  border-color: #3fff00; 
+  background-color: rgba(0,0,0, .5);
+  min-height: 57px;
+}
+.propage_headleft {
+  width: 300px;
+  max-width: 300px;
+  background-color:#3fff00;
+  background: -webkit-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -moz-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -o-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -ms-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -webkit-gradient(linear, color-stop(0.00, #33c304),color-stop(100, #3fff00));
+  height: 25px;
+  float: right;
+   padding-top: 5px;
+   text-align: center;
+}
+.propage_headright_name a {
+   text-decoration: none;
+   color: #ffffff;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+}
+.propage_propic {
+  margin: 0 auto;
+    width: 200px;
+  max-width: 200px; 
+  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  position: relative;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.propage_propic img{
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+.propg_username  {
+  height: 18px;
+  float: right;
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(0,0,0, .5);
+  font-size: 12px;
+  width: 300px;
+  padding-top: 2px;
+  max-width: 300px; 
+  text-decoration: none;
+  margin-top: 5px;
+  }
+
+
+
+.propg_country a {
+  height: 20px;
+  float: right;
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(0,0,0, .5);
+  font-size: 12px;
+  width: 300px;
+  padding-top: 2px;
+  max-width: 300px; 
+  text-decoration: none;
+  margin-top: 5px;
+  }
+
+.propg_plugging a {
+  position: relative;
+  height: 30px;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(0,0,0, .5);
+  font-size: 11px;
+  width: 100px;
+  padding-top: 2px;
+  max-width: 100px; 
+  text-decoration: none;
+  margin-top: 5px;
+  }
+.propg_plugging   :hover  {
+  text-decoration: underline;
+}
+
+.propg_pluggers a {
+  position: relative;
+  height: 30px;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(0,0,0, .5);
+  font-size: 11px;
+  width: 100px;
+  padding-top: 2px;
+  max-width: 100px; 
+  text-decoration: none;
+  margin-top: 5px;
+  }
+.propg_pluggers   :hover  {
+  text-decoration: underline;
+}
+
+.propg_interest a {
+  position: relative;
+  height: 30px;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(0,0,0, .5);
+  font-size: 11px;
+  width: 100px;
+  padding-top: 2px;
+  max-width: 100px; 
+  text-decoration: none;
+  margin-top: 5px;
+  }
+.propg_interest  :hover  {
+  text-decoration: underline;
+}
+
+
+
+.pr_welcome_propage a {
+  height: 20px;
+  float: right;
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(0,0,0, .5);
+  font-size: 13px;
+  width: 300px;
+  padding-top: 2px;
+  max-width: 300px; 
+  text-decoration: none;
+  margin-top: 5px;
+  }
+.pr_welcome_propage  :hover  {
+  text-decoration: none
+}
+.pr_infotag p{
+  
+  color: #c5c9c5;
+  position: relative;
+  margin: 3px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  float: left;
+  margin-left: 6px;
+  border:1px;
+  border-style:solid;
+  border-color: #3fff00; 
+  padding-left: 4px;
+  padding-right: 4px;
+  height: auto;
+  background-color:#3fff00;
+  background: -webkit-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -moz-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -o-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -ms-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -webkit-gradient(linear, color-stop(0.00, #33c304),color-stop(100, #3fff00));
+}
+.pr_infocontent p{
+  color: #c5c9c5;
+  position: relative;
+  margin: 3px;
+  max-width:  280px;
+  min-width:  280px;
+  margin-right: 7px;
+  float: right;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 3px;
+  height: auto;
+  text-align: center;
+  border-radius: 5px;
+    min-height: 150px;
+}
+.more_panel p{
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin-top: 13px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  float: left;
+  margin-left: 14px;
+  border:1px;
+  border-style:solid;
+  border-color: #3fff00;
+  padding: 3px;
+
+  height: auto;
+  background: -webkit-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -moz-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -o-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -ms-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -webkit-gradient(linear, color-stop(0.00, #33c304),color-stop(100, #3fff00));
+}
+
+.more_panel a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.more_panel a:hover {
+  text-decoration: underline;
+
+}
+.medstuff_content p{
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin: 3px;
+  margin-right: 14px;
+  max-width:  250px;
+  min-width:  250px;
+  float: right;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border: solid 1px #3fff00;
+      font-size: 13px;
+  margin-top: 0px;
+  padding: 10px;
+  min-height: 637px;
+}
+
+
+.propage_headright_name {
+  width: 300px;
+  max-width: 300px;
+  background-color:#3fff00;
+  background: -webkit-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -moz-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -o-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -ms-linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: linear-gradient(top, #33c304 0%,#3fff00 100%);
+  background: -webkit-gradient(linear, color-stop(0.00, #33c304),color-stop(100, #3fff00));
+  height: 23px;
+  float: left;
+   text-align: center;
+   color: #ffffff;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   padding-top: 7px;
+}
+@media screen and (max-width: 485px) {
+
+#propage_rightbody{
+  height: auto;
+}
+#propage_leftbody{
+    margin: auto;
+    display: inline-block;
+    width: 97%;
+    height: auto;
+}
+.propage_headleft{
+  width: 100%;
+  float: right;
+
+}
+.pr_welcome_propage a {
+  width: 100%;
+  float: right;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+
+.propage_headright_name{
+  width: 100%;
+
+}
+
+.propage_propic {
+    width: 180px;
+  max-width: 180px; 
+}
+.propage_propic img{
+width: 100%;
+height: 100%;
+}
+.propage_info_pad{
+  width: 97%;
+  float: left;
+}
+.propage_info_pad p {
+    text-overflow:all;
+    text-align: left;
+    direction:rtl;
+}
+.plugging_b a {
+  font-size: 10px;
+}
+.plugging_b{
+    margin-top: -5px;
+  width: 100%;
+}
+.plugger_b a {
+  font-size: 10px;
+}
+.plugger_b{
+    margin-top: -5px;
+  width: 100%;
+
+}
+.stat_onoffb a {
+  font-size: 10px;
+}
+
+.stat_onoff{
+    margin-top: 0px;
+  width: 100%;
+}
+
+.propg_username{
+    font-size: 11px;
+}
+.pr_memberstat{
+    font-size: 11px;
+
+}
+.propg_country{
+    font-size: 11px;
+
+}
+.pr_flaircontent p{
+  max-width: 100%;
+margin-right: 25px;
+margin-left: 25px;
+}
+.pr_flairtag p{
+margin-left:25px;
+}
+
+
+
+.propg_username {
+  width: 100%;
+
+}
+.propg_country a {
+  width: 100%;
+
+}
+.pr_infocontent p {
+  min-width: 40%;
+}
+
+
+
+}
+
+@media screen and (max-width:  320px) {
+
+.propg_plugging a {
+  width: 95px;
+
+}
+
+.pr_connector a {
+  width: 95px;
+
+}
+.propg_interest a {
+  width: 94px;
+
+}
+
+
+}
+
+/*# Gadgets */
+
+/* ----------- 1280px-Galaxy Tab/Nexus/Kindle Fire ----------- */
+
+/* ----------- 1200px -Kindle Fire ----------- */
+
+/* ----------- 1024px-Ipad 1,2,3 ----------- */
+
+@media screen and (max-width:  1000px) {
+
+
+#propage_rightbody{
+    margin: auto;
+    width: 97%;
+    float: right;
+    height: auto; 
+    margin-bottom: 5px;
+    margin-left: 400px;
+}
+
+
+}
+
+
+
+
+
